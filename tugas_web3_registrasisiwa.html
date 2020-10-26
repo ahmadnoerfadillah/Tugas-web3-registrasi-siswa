@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <form action="login.php" method="POST">
+        <fieldset>
+        <legend>Registration</legend>
+
+    <style type="text/css">
+        body {
+            background-color: gray;
+        }
+        h1 {
+            font-size: 50px;
+            font-family:'Times New Roman', Times, serif;
+            color:whitesmoke;
+        }
+        </style>
+</head>
+<body>
+    <div id="header" style="text-align: center; background-image: url('src/hd.jpg');background-repeat: no-repeat
+    ;background-size: cover; padding: 150px; color: whitesmoke;">
+        <h1>STUDENT REGISTRATION</h1>
+    </div>
+    <div id="order" style="color: whitesmoke">
+      
+    <h3>Personal</h3>  
+    <form action="/home">
+       <ul>
+        <li><label for="Nama">Name</label></li>
+        <input type="text">
+        <br><br>
+        <li><label for="Age">Age</label></li>
+        <input type="text">
+        <br><br>
+        <li><label for="">Date of Birth</label></li>
+        <input type="date">
+        <br><br>
+        <li><label for="">Sex</label></li>
+        <br>
+        <label for="">Male</label>
+        <input type="radio" name="Sex">
+        <label for="">Female</label>
+        <input type="radio" name="Sex">
+        <br><br>
+        <li><label for="">Religion -</label></li>
+        <select>
+            <option value="">Islam</option>
+            <option value="">Christian</option>
+            <option value="">Hindu</option>
+            <option value="">Budha</option>
+            <option value="">Conghucu</option>
+        </select>
+        <br>
+       </ul>
+    <h3>Contact</h3>    
+    <ul>
+     <li><label for="">Address</label></li><br><br>
+        <textarea  cols="50" rows="5"></textarea>
+        <br><br>
+     <li><label for="">Country -</label></li>
+        <select>
+            <option value="">Indonesia</option>
+            <option value="">England</option>
+            <option value="">Egypt</option>
+            <option value="">America</option>
+            <option value="">Netherland</option>
+        </select>
+        <br><br>
+     <li><label for="">Province -</label></li>
+        <select>
+            <option value="">Jawa Barat</option>
+            <option value="">DKI Jakarta</option>
+            <option value="">Jawa Timur</option>
+            <option value="">Jawa Tengah</option>
+            <option value="">Banten</option>
+        </select>
+        <br><br>
+     <li><label for="">City -</label></li>
+        <select>
+            <option value="">Bandung</option>
+            <option value="">Jakarta</option>
+            <option value="">Surabaya</option>
+            <option value="">Semarang</option>
+            <option value="">Serang</option>
+        </select>
+        <br><br>
+     <li><label for="Zip Code">Zip Code</label></li>
+        <input type="text">
+        <br><br>
+     <li><label for="Phone">phone</label></li>
+        <input type="text">
+        <br><br>
+     <li><label for="Email">Email</label></li>
+        <input id="email" type="email">
+        <br><br>
+     <li><label for="">Password</label></li>
+         <input type="password" name="password" placeholder="password..." />
+        <br><br>
+     <li><label for="">Membership Type</label></li>
+        <br>
+        <label for="">Reguler</label>
+        <input type="radio" name="Membership_Type">
+        <label for="">Premium</label>
+        <input type="radio" name="Membership_Type">
+        <label for="">VIP</label>
+        <input type="radio" name="Membership_Type">
+    </ul>
+        <h3>Course</h3>  
+    <form action="/home">
+       <ul>
+        <li><label for="Course name">Course Name</label></li>
+        <input type="text">
+        <br><br>
+        <li><label for="">Payment Details</label></li>
+        <br>
+        <label for="">Cash</label>
+        <input type="radio" name="Cash">
+        <label for="">Cheque</label>
+        <input type="radio" name="Membership_Type">
+        <label for="">credit card</label>
+        <input type="radio" name="Membership_Type">
+        <br><br>
+        <li><label for="">Comments</label></li><br><br>
+            <textarea  cols="50" rows="5"></textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+            <br><br>
+            
+    
+        
+    
+        
+    </form>
+    </div>
+
+
+</body>
+</html>
